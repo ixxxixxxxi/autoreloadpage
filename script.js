@@ -6,7 +6,7 @@
     var reloadInterval;
 
     if (localStorage.getItem("autoReload") === "true") {
-        enableAutoReload();
+        enableAutoReload(); s
     }
 
     $('.autoreload').click(function () {
