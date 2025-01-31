@@ -3,7 +3,7 @@
 
 <script>
   $(document).ready(function () {
-    var reloadInterval;
+    var reloadInterval; s
 
     if (localStorage.getItem("autoReload") === "true") {
         enableAutoReload();
